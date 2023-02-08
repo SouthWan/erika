@@ -1,14 +1,25 @@
 {
-    "name": "vendor_name/erika",
-    "description": "description",
-    "minimum-stability": "stable",
-    "license": "proprietary",
+    "name": "southwan/erika",
+    "description": "A library of tools from laravel",
+    "keywords": [
+        "erika",
+        "laravel"
+    ],
+    "type": "library",
+    "require": {
+        "illuminate/support": "^9.47"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "SouthWan\\erika\\": "src/"
+        }
+    },
     "authors": [
         {
-            "name": "ACER",
-            "email": "email@example.com"
+            "name": "SouthWan",
+            "email": "2508598490@qq.com"
         }
     ],
-    "require": {
-    }
+    "minimum-stability": "dev"
 }
